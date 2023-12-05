@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container{
+    width: 800px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.product-card{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 10px;
+}
